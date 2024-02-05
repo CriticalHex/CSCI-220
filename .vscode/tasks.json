@@ -1,0 +1,36 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build active file",
+            "command": "C:\\mingw64\\bin\\mingw32-make.exe",
+            "args": [
+                "stage3"
+            ],
+            "options": {
+                "cwd": "${fileDirname}/build"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "dependsOn": [
+                "clang-format"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "clang-format",
+            "type": "shell",
+            "command": "clang-format",
+            "args": [
+                "-i",
+                "--style=file",
+                "${file}"
+            ]
+        }
+    ],
+    "version": "2.0.0"
+}
