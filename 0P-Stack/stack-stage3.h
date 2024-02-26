@@ -22,14 +22,13 @@
 
 using namespace std;
 
-template <typename T>
-class stack {
+template <typename T> class stack {
 public:
   T top() { return _data[_size - 1]; }
 
   void push(const T &it) {
     if (_size == _alloc_size) {
-      _alloc_size *= 2;
+      _alloc_size *= 1.5;
       T *data = new T[_alloc_size];
       copy(_data, _data + _size, data);
       delete[] _data;
@@ -39,22 +38,22 @@ public:
     _size++;
   }
 
-  void   pop() { _size--; }
+  void pop() { _size--; }
   size_t size() { return _size; }
-  bool   is_empty() { return _size == 0; }
+  bool is_empty() { return _size == 0; }
 
   stack() {}
   stack(stack &other) {
-    _data       = new T[other._alloc_size];
-    _size       = other._size;
+    _data = new T[other._alloc_size];
+    _size = other._size;
     _alloc_size = other._alloc_size;
     copy(other._data, other._data + other._size, _data);
   }
   stack &operator=(stack &other) {
     if (_data != other._data) {
       delete[] _data;
-      _data       = new T[other._alloc_size];
-      _size       = other._size;
+      _data = new T[other._alloc_size];
+      _size = other._size;
       _alloc_size = other._alloc_size;
       copy(other._data, other._data + other._size, _data);
     }
@@ -66,9 +65,9 @@ public:
   }
 
 private:
-  size_t _alloc_size = 1;
-  T     *_data       = new T[_alloc_size];
-  size_t _size       = 0;
+  size_t _alloc_size = 2;
+  T *_data = new T[_alloc_size];
+  size_t _size = 0;
 };
 
 #endif
