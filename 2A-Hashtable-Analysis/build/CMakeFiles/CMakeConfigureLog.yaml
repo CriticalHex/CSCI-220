@@ -1,0 +1,233 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/3.28.1/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/3.28.1/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-yo9d7w"
+      binary: "C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-yo9d7w"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-yo9d7w'
+        
+        Run Build Command(s): "E:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_e97a4/fast
+        make  -f CMakeFiles\\cmTC_e97a4.dir\\build.make CMakeFiles/cmTC_e97a4.dir/build
+        make[1]: Entering directory 'C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-yo9d7w'
+        Building C object CMakeFiles/cmTC_e97a4.dir/CMakeCCompilerABI.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_e97a4.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_e97a4.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_e97a4.dir\\CMakeCCompilerABI.c.obj -c "E:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Linking C executable cmTC_e97a4.exe
+        "E:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e97a4.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_e97a4.dir\\objects1.rsp -o cmTC_e97a4.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e97a4.lib -Xlinker /pdb:"C:\\Users\\kubas\\source\\vscode\\C++\\CSCI 220\\2A-Hashtable-Analysis\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo9d7w\\cmTC_e97a4.pdb" -Xlinker /version:0.0  
+        make[1]: Leaving directory 'C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-yo9d7w'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-dv98yi"
+      binary: "C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-dv98yi"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-dv98yi'
+        
+        Run Build Command(s): "E:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_77533/fast
+        make  -f CMakeFiles\\cmTC_77533.dir\\build.make CMakeFiles/cmTC_77533.dir/build
+        make[1]: Entering directory 'C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-dv98yi'
+        Building CXX object CMakeFiles/cmTC_77533.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_77533.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_77533.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_77533.dir\\CMakeCXXCompilerABI.cpp.obj -c "E:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Linking CXX executable cmTC_77533.exe
+        "E:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_77533.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_77533.dir\\objects1.rsp -o cmTC_77533.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_77533.lib -Xlinker /pdb:"C:\\Users\\kubas\\source\\vscode\\C++\\CSCI 220\\2A-Hashtable-Analysis\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dv98yi\\cmTC_77533.pdb" -Xlinker /version:0.0  
+        make[1]: Leaving directory 'C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-dv98yi'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-e4o125"
+      binary: "C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-e4o125"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-e4o125'
+        
+        Run Build Command(s): "E:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_37f6b/fast
+        make  -f CMakeFiles\\cmTC_37f6b.dir\\build.make CMakeFiles/cmTC_37f6b.dir/build
+        make[1]: Entering directory 'C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-e4o125'
+        Building CXX object CMakeFiles/cmTC_37f6b.dir/feature_tests.cxx.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_37f6b.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_37f6b.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_37f6b.dir\\feature_tests.cxx.obj -c "C:\\Users\\kubas\\source\\vscode\\C++\\CSCI 220\\2A-Hashtable-Analysis\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e4o125\\feature_tests.cxx"
+        Linking CXX executable cmTC_37f6b.exe
+        "E:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_37f6b.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_37f6b.dir\\objects1.rsp -o cmTC_37f6b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_37f6b.lib -Xlinker /pdb:"C:\\Users\\kubas\\source\\vscode\\C++\\CSCI 220\\2A-Hashtable-Analysis\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e4o125\\cmTC_37f6b.pdb" -Xlinker /version:0.0  @CMakeFiles\\cmTC_37f6b.dir\\linkLibs.rsp 
+        make[1]: Leaving directory 'C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-e4o125'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "E:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-obk1ps"
+      binary: "C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-obk1ps"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-obk1ps'
+        
+        Run Build Command(s): "E:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_cd33a/fast
+        make  -f CMakeFiles\\cmTC_cd33a.dir\\build.make CMakeFiles/cmTC_cd33a.dir/build
+        make[1]: Entering directory 'C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-obk1ps'
+        Building CXX object CMakeFiles/cmTC_cd33a.dir/feature_tests.cxx.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_cd33a.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_cd33a.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_cd33a.dir\\feature_tests.cxx.obj -c "C:\\Users\\kubas\\source\\vscode\\C++\\CSCI 220\\2A-Hashtable-Analysis\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obk1ps\\feature_tests.cxx"
+        Linking CXX executable cmTC_cd33a.exe
+        "E:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_cd33a.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_cd33a.dir\\objects1.rsp -o cmTC_cd33a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_cd33a.lib -Xlinker /pdb:"C:\\Users\\kubas\\source\\vscode\\C++\\CSCI 220\\2A-Hashtable-Analysis\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obk1ps\\cmTC_cd33a.pdb" -Xlinker /version:0.0  @CMakeFiles\\cmTC_cd33a.dir\\linkLibs.rsp 
+        make[1]: Leaving directory 'C:/Users/kubas/source/vscode/C++/CSCI 220/2A-Hashtable-Analysis/build/CMakeFiles/CMakeScratch/TryCompile-obk1ps'
+        
+      exitCode: 0
+...
